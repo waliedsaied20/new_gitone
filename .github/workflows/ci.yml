@@ -32,7 +32,7 @@ jobs:
       if: github.event_name == 'push'
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
-        image: waliedsaied20/demo-app
+        image: waliedsaied22/git_repotest/demo-app
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}

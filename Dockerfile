@@ -1,8 +1,5 @@
 FROM eclipse-temurin:8-jre-alpine
-<<<<<<< HEAD
 
-=======
->>>>>>> ca6ab0c (Update Docker base Image)
 
 EXPOSE 8080
 
